@@ -1,0 +1,46 @@
+@keyframes quickRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  animation: quickRotate 10s linear infinite;
+}
+.headerWrap {
+  z-index: 999;
+  padding: 0 12px;
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px 8px rgba(29, 41, 57, 0.08);
+  .headerBox {
+    max-width: 100%;
+    width: 1150px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .titleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .title {
+    font-size: 20px;
+    margin-left: 6px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,3 @@
+## LICENSE
+
+[GPLv3.0](./LICENSE)

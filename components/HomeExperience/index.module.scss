@@ -1,0 +1,24 @@
+.homeExperience {
+  background-color: #4772f4;
+  padding: 60px 12px;
+  text-align: center;
+  .desc {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #ffffff80;
+  }
+  .button {
+    display: inline-block;
+    color: #436ef3;
+    background-color: #fff;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+}

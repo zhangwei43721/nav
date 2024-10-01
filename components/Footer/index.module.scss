@@ -1,0 +1,15 @@
+.footer {
+  margin: 0 auto;
+  width: 1150px;
+  max-width: 100%;
+  padding: 70px 12px 12px 12px;
+  .title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .text {
+    color: rgba(18, 20, 28, 0.7);
+    margin-bottom: 2rem;
+  }
+}
